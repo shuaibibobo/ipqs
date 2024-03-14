@@ -1,0 +1,39 @@
+{
+	"name": "@azureflow/ipqualityscore",
+	"version": "0.9.0",
+	"description": "IPQS `request_id` and cookie gen.",
+	"keywords": [
+		"IPQS",
+		"IPQualityScore",
+		"bypass"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AzureFlow/ipqs.git"
+	},
+	"license": "AGPL-3.0",
+	"author": "AzureFlow",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"prettier:check": "prettier --check src",
+		"prettier:format": "prettier --write src"
+	},
+	"dependencies": {
+		"ffi-napi": "^4.0.3",
+		"https-proxy-agent": "^7.0.2",
+		"luxon": "^3.4.4",
+		"murmurhash3js": "^3.0.1",
+		"query-string": "^8.1.0",
+		"shift-parser": "^8.0.0",
+		"shift-query": "^1.0.2",
+		"webcrack": "^2.11.1"
+	},
+	"devDependencies": {
+		"prettier": "^3.2.5"
+	},
+	"packageManager": "^pnpm@8.6.7",
+	"engines": {
+		"node": ">=18.0"
+	}
+}
